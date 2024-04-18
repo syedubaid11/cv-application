@@ -27,10 +27,8 @@ function App(){
 
 return(
   <div>
-    <h1>{contactInfo.firstName}
-    {schoolName.schoolName}.</h1>
-
-    <Personalinfo/>
+      <h1>  {schoolName.schoolName}.</h1>
+    <Personalinfo/>  
 
   </div>
 )

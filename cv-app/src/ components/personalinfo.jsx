@@ -1,4 +1,9 @@
-import React from "react";
+import React, { useState } from 'react' 
+
+
+
+function Personalinfo(){
+
 
 const [contactInfo,setcontactInfo]=useState({
     firstName:"John",
@@ -8,10 +13,9 @@ const [contactInfo,setcontactInfo]=useState({
 
 
   })
-const Personalinfo=()=>{
     return (
         <div>
-            <h2>{contactInfo.firstName+secondName}</h2>
+            <h2>{contactInfo.firstName}</h2>
         </div>
     )
 }
