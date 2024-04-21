@@ -2,35 +2,32 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Personalinfo from './ components/personalinfo'
+import List from './ components/workex.jsx'
 
 
 
 function App(){
-  
 
-  const[schoolName,setschoolName]=useState({
-    schoolName:'css',
-    universityName:'',
+const[info,setInfo]=useState('');
 
-  })
-
-  const [experienceInfo,setexperienceInfo]=useState({
-
-  })
-
-  const [skillsInfo,setskillsInfo]=useState({
-    skills:'',
-
-
-  })
-
+const handleChange=(event)=>{
+  setInfo(event.target.value)
+}
+ 
 return(
-  <div>
-      <h1>  {schoolName.schoolName}.</h1>
-    <Personalinfo/>  
+ <div>
+  <input 
 
-  </div>
+  type="text"
+  placeholder='Enter Contact Info'
+  value={info}
+  onChange={handleChange}
+
+  />
+   
+  <p style={{marginTop:'5rem',backgroundColor:'white'}}>{info}</p>
+ </div>
+ 
 )
 
 }
