@@ -10,8 +10,9 @@ export default function Personalinfo(){
     }
 
     return(
-        <div className="personalinfo-container">
+        <div className="Infocontainer">
             <div className="personalinfo">
+                <h1>Enter Your Personal Details</h1>
                 <input
                 type="text"
                 placeholder="Enter your Personal Details"
