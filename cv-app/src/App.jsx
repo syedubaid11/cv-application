@@ -21,7 +21,7 @@ return(
   <Workex/>
   <Educationalinfo/>
 
-  <button className='clear'onClick={}>Clear</button>
+  <button className='clear'>Clear</button>
  </div>
  
 )
