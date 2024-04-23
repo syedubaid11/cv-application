@@ -1,5 +1,18 @@
-.displayEduInfo{
-    margin-left:5rem;
-    
+body{
+    font-family:sans-serif;
 }
+.displayContent{
+    position: absolute;
+    top:2rem;
+    right:4rem;
+}
+
+
+.container{
+    border:2px solid black;
+    width: max-content;
+    padding:2rem;
+}
+
+
 

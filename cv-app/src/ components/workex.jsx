@@ -11,7 +11,7 @@ export default function Workex(){
     return(
         <div className="workexcontainer">
             <div className="workexinfo">
-                <h1>Enter Your Experience</h1>
+                <h3>Experience</h3>
                 <input
                 type="text"
                 placeholder="Enter your Experience"

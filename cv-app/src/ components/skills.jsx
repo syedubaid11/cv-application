@@ -12,7 +12,7 @@ export default function Skillsinfo(){
     return(
         <div className="Infocontainer">
             <div className="skillinfo">
-                <h1>Enter Your Skills</h1>
+                <h3>Skills</h3>
                 <input
                 type="text"
                 placeholder="Enter your Skills"

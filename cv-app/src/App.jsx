@@ -20,6 +20,8 @@ return(
   <Skillsinfo/>
   <Workex/>
   <Educationalinfo/>
+
+  <button className='clear'onClick={}>Clear</button>
  </div>
  
 )
