@@ -19,10 +19,13 @@ export default function Skillsinfo(){
                 value={skillInfo}
                 onChange={handleChange}
                 />
+
+        
                 <p>{skillInfo}</p>
             </div>
 
 
         </div>
     )
+    
 }

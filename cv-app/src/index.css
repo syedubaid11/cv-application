@@ -1,17 +1,28 @@
 body{
     font-family:sans-serif;
-}
-.displayContent{
-    position: absolute;
-    top:2rem;
-    right:4rem;
+   
 }
 
 
 .container{
-    border:2px solid black;
+    border:1px solid black;
     width: max-content;
     padding:2rem;
+    border-radius: 10px;
+    
+}
+
+.displayinfocontainer{
+    border:1px solid black;
+    width: max-content;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.containerOfAll{
+    display: flex;
+    flex-direction: row;
+
 }
 
 

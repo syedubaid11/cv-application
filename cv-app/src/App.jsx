@@ -14,15 +14,27 @@ function App(){
 
 return(
 
-  <div className='container' style={{marginLeft:'1rem'}}>   
+<div>  
 
-  <Personalinfo/>
-  <Skillsinfo/>
-  <Workex/>
-  <Educationalinfo/>
+  <div className='containerOfAll'>
 
-  <button className='clear'>Clear</button>
- </div>
+    
+      <div className='container' style={{marginLeft:'1rem'}}>   
+
+      <Personalinfo/>
+      <Skillsinfo/>
+      <Workex/>
+      <Educationalinfo/>
+
+      <button className='clear'>Clear</button>
+      </div>
+
+      <div className='displayinfocontainer' style={{marginLeft:'8rem'}}>
+        
+      </div>
+      
+  </div>
+</div>
  
 )
 

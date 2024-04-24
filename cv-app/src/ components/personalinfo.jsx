@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 
-export default function Personalinfo(){
+export default function Personalinfo(props){
     const [personalInfo,setpersonalInfo]=useState('')
 
     const handleChange=(event)=>{
@@ -19,7 +19,8 @@ export default function Personalinfo(){
                 value={personalInfo}
                 onChange={handleChange}
                 />
-                <p>{personalInfo}</p>
+                
+                <p></p>
             </div>
 
 
