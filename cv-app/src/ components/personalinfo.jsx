@@ -18,9 +18,10 @@ export default function Personalinfo(props){
                 placeholder="Enter your Personal Details"
                 value={personalInfo}
                 onChange={handleChange}
+            
                 />
                 
-                <p></p>
+                <p>j</p>
             </div>
 
 

@@ -21,10 +21,10 @@ return(
     
       <div className='container' style={{marginLeft:'1rem'}}>   
 
-      <Personalinfo/>
-      <Skillsinfo/>
-      <Workex/>
-      <Educationalinfo/>
+        <Personalinfo/>
+        <Skillsinfo/>
+        <Workex/>
+        <Educationalinfo/>
 
       <button className='clear'>Clear</button>
       </div>
