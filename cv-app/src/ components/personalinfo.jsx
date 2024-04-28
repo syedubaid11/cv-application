@@ -1,11 +1,13 @@
 import {useState} from 'react'
+import DisplayCV from './displayCV'
 
 
-export default function Personalinfo(props){
+export default function Personalinfo(){
     const [personalInfo,setpersonalInfo]=useState('')
 
     const handleChange=(event)=>{
         setpersonalInfo(event.target.value)
+        
 
     }
 
@@ -20,12 +22,17 @@ export default function Personalinfo(props){
                 onChange={handleChange}
             
                 />
-                
-                <p>j</p>
+                <DisplayCV inputValue={personalInfo}/>
             </div>
+            
+
+            
+             
+
 
 
         </div>
+        
     )
 }
 

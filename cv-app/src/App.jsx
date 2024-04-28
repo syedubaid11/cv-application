@@ -11,7 +11,6 @@ import Educationalinfo from './ components/educationalinfo.jsx'
 
 function App(){
 
-
 return(
 
 <div>  
@@ -25,11 +24,13 @@ return(
         <Skillsinfo/>
         <Workex/>
         <Educationalinfo/>
+        
 
       <button className='clear'>Clear</button>
       </div>
 
       <div className='displayinfocontainer' style={{marginLeft:'8rem'}}>
+        <h1 id="personalinfo"></h1>
         
       </div>
       
