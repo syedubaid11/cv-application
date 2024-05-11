@@ -1,11 +1,14 @@
 import Personalinfo from "./personalinfo";
+import Skillsinfo from "./skills";
 
-const DisplayCV = (props)=>{
+export default function DisplayCV(props){
 
     return(
         <div className="displaycv"> 
             <h1>Personal Details:</h1>
-            <p>{props.inputValue}</p>
+            <p>{props.name}</p>
+            <h1>Skills</h1>
+            <p>{props.skillInfo}</p>
         </div>
     )
 
@@ -14,4 +17,3 @@ const DisplayCV = (props)=>{
 
 
 }
-export default DisplayCV;

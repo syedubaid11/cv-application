@@ -17,6 +17,8 @@ body{
     width: max-content;
     padding: 2rem;
     border-radius: 10px;
+    position:absolute;
+    margin-left:30rem;
 }
 
 .containerOfAll{

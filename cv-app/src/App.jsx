@@ -6,6 +6,7 @@ import Personalinfo from './ components/personalinfo.jsx'
 import Skillsinfo from './ components/skills.jsx'
 import Workex from './ components/workex.jsx'
 import Educationalinfo from './ components/educationalinfo.jsx'
+import DisplayCV from './ components/displayCV.jsx'
 
 
 
@@ -24,15 +25,14 @@ return(
         <Skillsinfo/>
         <Workex/>
         <Educationalinfo/>
+        <DisplayCV/>
+
         
 
       <button className='clear'>Clear</button>
       </div>
 
-      <div className='displayinfocontainer' style={{marginLeft:'8rem'}}>
-        <h1 id="personalinfo"></h1>
-        
-      </div>
+      
       
   </div>
 </div>

@@ -22,15 +22,8 @@ export default function Personalinfo(){
                 onChange={handleChange}
             
                 />
-                <DisplayCV inputValue={personalInfo}/>
+            <DisplayCV name={personalInfo}/>
             </div>
-            
-
-            
-             
-
-
-
         </div>
         
     )

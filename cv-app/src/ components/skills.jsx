@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import DisplayCV from './displayCV'
 
 
 export default function Skillsinfo(){
@@ -20,9 +21,7 @@ export default function Skillsinfo(){
                 onChange={handleChange}
                 />
 
-        
-                <p>{skillInfo}</p>
-            </div>
+                </div>
 
 
         </div>
