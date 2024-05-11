@@ -21,11 +21,7 @@ body{
     margin-left:30rem;
 }
 
-.containerOfAll{
-    display: flex;
-    flex-direction: row;
 
-}
 
 .clear{
     margin:1rem;
@@ -33,5 +29,20 @@ body{
 }
 
 
+.input-container{
+    display: flex;
+    flex-direction: column ;
+    width: max-content;
+    border:1px solid black;
+}
+.all{
+    display: flex;
+
+        
+}
+
+.cv-display-container{
+    margin-left:30rem;
+}
 
 
