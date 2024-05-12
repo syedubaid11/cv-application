@@ -46,3 +46,13 @@ body{
 }
 
 
+.summary{
+    margin-top:4rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

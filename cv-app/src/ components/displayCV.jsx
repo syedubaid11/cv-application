@@ -3,10 +3,12 @@ import {useState} from 'react'
 
 export default function DisplayCV(){
     const [cvInfo,setcvInfo]=useState({
-        personalinfo:"",
-        skillsinfo:"",
+        personalinfo:"Joe Doe",
+        personalinfoContact:"joedoe@gmail.com",
+        skillsinfo:" ",
         educationalinfo:"",
-        workexinfo:""
+        workexinfo:"",
+        summary:""
     })
 
 function handleChange(event){
@@ -30,6 +32,16 @@ function handleChange(event){
                     placeholder="Enter your Personal Details"
                     name="personalinfo"
                     value={cvInfo.personalinfo}
+                    onChange={handleChange}
+                    />
+                </div>
+                <div>
+                    <h3>Contact Info</h3>
+                    <input
+                    type="text"
+                    placeholder="Enter your Contact Details"
+                    name="personalinfoContact"
+                    value={cvInfo.personalinfoContact}
                     onChange={handleChange}
                     />
                 </div>
@@ -63,18 +75,31 @@ function handleChange(event){
                     onChange={handleChange}
                    />
                 </div> 
+                <div className='summary'>
+                    <h3>Summary</h3>
+                    <input
+                    type="text"
+                    placeholder="Enter Summary"
+                    name="summary"
+                    value={cvInfo.summary}
+                    onChange={handleChange}
+                    />
+                </div>
 
           </div>
 
           <div className='cv-display-container'>
             <div className='heading'>
-            <h1>{cvInfo.personalinfo}</h1>
+                <h1>{cvInfo.personalinfo}</h1>
+                <h3>{cvInfo.personalinfoContact}</h3>
             </div>
                 <h3>{cvInfo.skillsinfo}</h3>
                 <p>{cvInfo.educationalinfo}</p>
                 <p>{cvInfo.workexinfo}</p>
+                <p>{cvInfo.summary}</p>
           </div>   
 
+         
         </div>
 
     
